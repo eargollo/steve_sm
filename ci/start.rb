@@ -25,7 +25,9 @@ class JenkinsJobStart
 end
 
 
-puts "Start is executing at #{Time.now}" 
+start = Time.now
+puts "Start is executing at #{start}" 
 jj = JenkinsJobStart.new
-puts "Finished at #{Time.now}"
+finish = Time.now
+puts "Finished at #{finish}. Duration: #{finish - start}"
 

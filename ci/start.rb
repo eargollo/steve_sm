@@ -25,4 +25,7 @@ class JenkinsJobStart
 end
 
 
+puts "Start is executing at #{Time.now}" 
 jj = JenkinsJobStart.new
+puts "Finished at #{Time.now}"
+

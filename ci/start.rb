@@ -28,6 +28,14 @@ end
 start = Time.now
 puts "Start is executing at #{start}" 
 jj = JenkinsJobStart.new
+
+puts "Sleeping 1 min"
+sleep(60)
+puts "Sleeping 1 min"
+sleep(60)
+puts "Sleeping 1 min"
+sleep(60)
+
 finish = Time.now
 puts "Finished at #{finish}. Duration: #{finish - start}"
 
